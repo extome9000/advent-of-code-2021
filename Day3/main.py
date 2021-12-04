@@ -52,7 +52,7 @@ def part2():
 		if len(co2List) == 1:
 			break
 
-	print(int(oxygenList[0],2)*int(co2List[0],2))
+	print("Part2:",int(oxygenList[0],2)*int(co2List[0],2))
 
 if __name__ == "__main__":
 	part1()
