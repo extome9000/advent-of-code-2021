@@ -1,13 +1,5 @@
 # NOT easy, NOT fun, made me write horrible code
 
-"""
-For each number in bingo board, replace it with the index of that number in the called-out number array you get at the start. A lower index iimplies that number is called early and a higher implies it's called late.
-
-For each bingo board, get it's columns and rows. For each of those, find the maximum number in that column/row. This is the winning turn for that column/row. Then, find the minimum number of the winning turns. This is the winning turn for the bingo.
-
-Then, simply find the bingo that has the lowest winning turn. Find the numbers that were called-out until that turn and do the needful.
-"""
-
 def _part1_checkBingo(b):
     for board in b: # Check horizontally
         for row in board:
@@ -44,4 +36,3 @@ def part1():
 
 if __name__ == "__main__":
     part1()
-    part2()
