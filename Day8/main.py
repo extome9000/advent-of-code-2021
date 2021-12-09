@@ -16,7 +16,7 @@ def part2():
 	LEN_UND = {2:"1",3:"7",4:"4",7:"8"}
 
 	def removeLetters(inp, ref):
-		return set(ref) - set(inp.lower())
+		return set(ref) - set(inp)
 
 	for entry in data:
 		reference = entry[0].split(" ")
